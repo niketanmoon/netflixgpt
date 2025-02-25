@@ -7,9 +7,15 @@ npm create vite@latest netflixgpt -- --template vue
 ```
 
 - Configured Tailwind from tailwindcss.com - https://tailwindcss.com/docs/installation/using-vite
+- Routing of App
 - Header
 - Login Form
 - Sign up Form
+- Form Validation
+- useRef hook
+- Firebase setup
+- Deploy firebase app to prod
+- Create Signup User Account
 
 # Features
 
@@ -34,3 +40,17 @@ npm create vite@latest netflixgpt -- --template vue
 
 - install react router
   `npm i -D react-router`
+
+# Firebase
+
+- install firebase
+  `npm i firebase`
+- install firebase tools
+  `npm i -g firebase-tools`
+- Login to firebase
+  `firebase login`
+- Initialize
+  `firebase init`
+- Deploy
+- put public directory as build
+- Deployed to firebase: https://netflixgpt-ca2b9.web.app
