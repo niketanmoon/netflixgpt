@@ -24,6 +24,17 @@ npm create vite@latest netflixgpt -- --template vue
 - Navigation to browse
 - BugFix: private routing when user is logged in or signed out
 - BugFix: Unsubscribed to the unAuthStateChanged callback
+- Adding TMDB authorization to .env file
+- Registered TMDB API & created an app and got access token
+- Made a call to now playing api from TMDB. Also saved authorization key in .env file
+- Custom Hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContainer & secondary container
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Yotube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
 
 # Features
 
