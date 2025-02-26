@@ -5,7 +5,7 @@ import appStore from "./redux/store";
 function App() {
   return (
     <Provider store={appStore}>
-      <Body />;
+      <Body />
     </Provider>
   );
 }
