@@ -16,6 +16,12 @@ npm create vite@latest netflixgpt -- --template vue
 - Firebase setup
 - Deploy firebase app to prod
 - Create Signup User Account
+- Implement signin user api
+- created redux store with userSlice
+- implement signout
+- signin and signout state changed
+- Update profile api
+- Navigation to browse
 
 # Features
 
@@ -54,3 +60,8 @@ npm create vite@latest netflixgpt -- --template vue
 - Deploy
 - put public directory as build
 - Deployed to firebase: https://netflixgpt-ca2b9.web.app
+
+# Redux toolkit
+
+- npm i -D @reduxjs/toolkit
+- npm i -D react-redux
