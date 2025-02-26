@@ -23,6 +23,7 @@ npm create vite@latest netflixgpt -- --template vue
 - Update profile api
 - Navigation to browse
 - BugFix: private routing when user is logged in or signed out
+- BugFix: Unsubscribed to the unAuthStateChanged callback
 
 # Features
 
