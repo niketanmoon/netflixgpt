@@ -3,7 +3,7 @@
 - Created react app using Vite
 
 ```
-npm create vite@latest netflixgpt -- --template vue
+npm create vite@latest netflixgpt -- --template react
 ```
 
 - Configured Tailwind from tailwindcss.com - https://tailwindcss.com/docs/installation/using-vite
