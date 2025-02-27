@@ -5,6 +5,8 @@ import { TMDB_OPTIONS } from "../utils/constants";
 
 const useTopRatedMovies = () => {
   const dispatch = useDispatch();
+  const topRatedMovies = useSelector((store) => store.movies.topRatedMovies);
+
   const getTopRatedMovies = async () => {
     const movieListUrl = "https://api.themoviedb.org/3/movie/top_rated?page=1";
     const data = await fetch(movieListUrl, TMDB_OPTIONS);
@@ -13,7 +15,7 @@ const useTopRatedMovies = () => {
   };
 
   useEffect(() => {
-    getTopRatedMovies();
+    !topRatedMovies && getTopRatedMovies();
   }, []);
 };
 

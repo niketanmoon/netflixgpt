@@ -5,6 +5,8 @@ import { TMDB_OPTIONS } from "../utils/constants";
 
 const useUpcomingMovies = () => {
   const dispatch = useDispatch();
+  const upcomingMovies = useSelector((store) => store.movies.upcomingMovies);
+
   const getUpcomingMovies = async () => {
     const movieListUrl = "https://api.themoviedb.org/3/movie/upcoming?page=1";
     const data = await fetch(movieListUrl, TMDB_OPTIONS);
@@ -13,7 +15,7 @@ const useUpcomingMovies = () => {
   };
 
   useEffect(() => {
-    getUpcomingMovies();
+    !upcomingMovies && getUpcomingMovies();
   }, []);
 };
 
