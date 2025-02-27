@@ -44,7 +44,7 @@ npm create vite@latest netflixgpt -- --template vue
 - GPT Search Page
 - GPT Search Bar
 - (BONUS) Multi-language Feature in our App)
-- Get Open AI Api Key 
+- Get Open AI Api Key
 - Gpt Search API Call
 - fetched gptMoviesSuggestions from TMDB
 - created gptSlice added data
@@ -52,6 +52,7 @@ npm create vite@latest netflixgpt -- --template vue
 - Memoization
 - Added .env file
 - Adding .env file to gitignore
+- Added responsiveness to some of the components
 
 # Features
 
